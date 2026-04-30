@@ -1,4 +1,4 @@
-// src/pages/HomePage.tsx
+
 import devImage from '../assets/images/developer2.jpeg'
 import ProjectCard from '../components/projects/ProjectCard'
 
@@ -23,21 +23,39 @@ const featuredProjects = [
 function HomePage() {
     return (
         <div className="homepage">
-            {/* Hero Section */}
-            <section className="hero">
-                <div className="roundball">
 
+
+            <section className="hero">
+
+                <div className="half-orb">
+                    <div className="orb">
+                        <div className="grid"></div>
+
+                        <span className="arc arc1"></span>
+                        <span className="arc arc2"></span>
+                        <span className="arc arc3"></span>
+
+                        <span className="glow g1"></span>
+                        <span className="glow g2"></span>
+                    </div>
                 </div>
-                <div className="container">
-                    <h1>Hi, I'm edson</h1>
+
+                <div className="textcontainer">
+                    <h1>Hi, I'm edson</h1><br />
                     <p className="subtitle">
                         Am a developer
                     </p>
+                    <button className="cta-button">Let's Connect</button>
+                </div>
+                <div className="img-container">
+
                     <div className="developer-img">
                         <img src={devImage} alt="Developer" />
                     </div>
-                    <button className="cta-button">View My Work →</button>
+
                 </div>
+
+
             </section>
 
 
