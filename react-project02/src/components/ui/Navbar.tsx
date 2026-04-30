@@ -17,6 +17,7 @@ function Navbar() {
                 <div className="nav-menu">
                     <a href="/" className="nav-link">Home</a>
                     <a href="/projects" className="nav-link">Projects</a>
+                    <a href="/about" className="nav-link">About</a>
                     <a href="/contact" className="nav-link">Contact</a>
                 </div>
 
@@ -34,6 +35,7 @@ function Navbar() {
                 <div className="mobile-menu">
                     <a href="/">Home</a>
                     <a href="/projects">Projects</a>
+                    <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                 </div>
             )}
