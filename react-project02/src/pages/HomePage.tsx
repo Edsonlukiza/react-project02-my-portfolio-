@@ -24,16 +24,22 @@ function HomePage() {
         <div className="homepage">
             {/* Hero Section */}
             <section className="hero">
+                <div className="roundball">
+
+                </div>
                 <div className="container">
                     <h1>Hi, I'm edson</h1>
                     <p className="subtitle">
-                        Frontend Developer specializing in React
+                        Am a developer
                     </p>
+                    <div className="developer-img">
+                        <img src="/src/assets/developer.png" alt="Developer image" />
+                    </div>
                     <button className="cta-button">View My Work →</button>
                 </div>
             </section>
 
-            {/* Featured Projects */}
+
             <section className="featured-projects">
                 <div className="container">
                     <h2>Featured Projects</h2>
@@ -42,6 +48,26 @@ function HomePage() {
                             <ProjectCard key={project.id} project={project} />
                         ))}
                     </div>
+                </div>
+            </section>
+            <section className="about-me">
+                <div className="container">
+                    <h2>About Me</h2>
+                    <p>
+                        I'm a passionate frontend developer with experience in creating modern web applications using React and related technologies.
+                    </p>
+                </div>
+            </section>
+            <section className="contact-me">
+                <div className="container">
+                    <h2>Contact Me</h2>
+                    <p>Feel free to reach out for collaborations or just a friendly chat!</p>
+                    <button className="contact-button">Get in Touch →</button>
+                </div>
+            </section>
+            <section className="footer">
+                <div className="container">
+                    <p>&copy; 2026 MyPortfolio. All rights reserved.</p>
                 </div>
             </section>
         </div>
