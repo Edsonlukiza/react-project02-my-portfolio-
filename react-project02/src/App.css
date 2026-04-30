@@ -8,10 +8,6 @@
   min-height: 100vh;
 }
 
-.main-content {
-  margin-top: 80px;
-  /* Space for fixed navbar */
-}
 
 .container {
   max-width: 1200px;
@@ -21,7 +17,7 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #7a003f 100%, #edeae0 50%);
   color: white;
   padding: 100px 0;
   text-align: center;
@@ -32,6 +28,16 @@
   margin-bottom: 1rem;
 }
 
+.developer-img {
+  margin: 2rem auto;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+}
+
 .subtitle {
   font-size: 1.25rem;
   margin-bottom: 2rem;
@@ -40,7 +46,7 @@
 
 .cta-button {
   background: white;
-  color: #764ba2;
+  color: #7a003f;
   border: none;
   padding: 1rem 2rem;
   font-size: 1.1rem;

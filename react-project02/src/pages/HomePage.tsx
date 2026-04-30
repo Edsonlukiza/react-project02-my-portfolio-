@@ -1,4 +1,5 @@
 // src/pages/HomePage.tsx
+import devImage from '../assets/images/developer2.jpeg'
 import ProjectCard from '../components/projects/ProjectCard'
 
 // Mock data (will be replaced with real projects later)
@@ -33,7 +34,7 @@ function HomePage() {
                         Am a developer
                     </p>
                     <div className="developer-img">
-                        <img src="/src/assets/developer.png" alt="Developer image" />
+                        <img src={devImage} alt="Developer" />
                     </div>
                     <button className="cta-button">View My Work →</button>
                 </div>
