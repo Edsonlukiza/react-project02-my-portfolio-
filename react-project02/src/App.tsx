@@ -1,6 +1,8 @@
-// src/App.tsx
-import Navbar from './components/common/Navbar'
+
+import Navbar from './components/ui/Navbar'
 import HomePage from './pages/HomePage'
+import Footer from './components/ui/Footer'
+
 import './App.css'
 
 function App() {
@@ -9,8 +11,11 @@ function App() {
       <Navbar />
       <main className="main-content">
         <HomePage />
+        <div className="footer"></div>
+        <Footer />
       </main>
     </div>
+
   )
 }
 
