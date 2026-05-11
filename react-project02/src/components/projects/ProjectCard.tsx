@@ -1,6 +1,5 @@
 
 import { useState } from 'react'
-import './ProjectCard.css'
 
 // Define what a project looks like (TypeScript)
 interface Project {

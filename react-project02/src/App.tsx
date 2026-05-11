@@ -1,22 +1,9 @@
-
-import Navbar from './components/ui/Navbar'
 import HomePage from './pages/HomePage'
-import Footer from './components/ui/Footer'
 
-import './App.css'
-
-function App() {
+export default function App() {
   return (
-    <div className="app">
-      <Navbar />
-      <main className="main-content">
-        <HomePage />
-        <div className="footer"></div>
-        <Footer />
-      </main>
+    <div className="min-h-screen">
+      <HomePage />
     </div>
-
   )
 }
-
-export default App
