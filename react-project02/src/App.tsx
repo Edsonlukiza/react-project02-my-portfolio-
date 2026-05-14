@@ -1,9 +1,12 @@
-import HomePage from './pages/HomePage'
+import Navbar from './components/Navbar';
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen">
-      <HomePage />
+    <div>
+      <Navbar />
     </div>
-  )
+
+  );
 }
+
+export default App;
