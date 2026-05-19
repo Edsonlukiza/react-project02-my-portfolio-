@@ -33,7 +33,7 @@ function ProjectCard({ project }: { project: Project }) {
                         <span key={tech} className="tech-tag">{tech}</span>
                     ))}
                 </div>
-                <button className="view-btn">View Project →</button>
+                <button className="view-btn">View Project </button>
             </div>
         </div>
     )
