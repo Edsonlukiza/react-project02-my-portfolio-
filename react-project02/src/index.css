@@ -3,4 +3,35 @@
 
 @theme {
     --color-background: #020a1a;
+    --color-sky-500: #3b82f6;
+    --color-slate-900: #0f172a;
+    --color-blue-500: #3b82f6;
+}
+
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-reverse {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.animate-spin-slow {
+    animation: spin-slow 11s linear infinite;
+}
+
+.animate-spin-reverse {
+    animation: spin-reverse 13s linear infinite;
 }
