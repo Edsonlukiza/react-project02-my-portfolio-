@@ -2,14 +2,14 @@
 import img from '../assets/images/developer2.jpeg'
 function Hero() {
     return (
-        <div className="bg-sky-950 text-white grid grid-cols-2 items-center gap-10 px-6 py-25">
+        <div className="bg-primary text-white grid grid-cols-2 items-center gap-10 px-6 py-25">
 
 
 
             <div className="">
                 <h1 className="text-3xl font-bold">Hello my name is Edson M.</h1>
 
-                <p className="mt-4 text-lg text-slate-300">I'm a passionate software developer with a knack for creating innovative solutions.</p>
+                <p className="mt-4 text-lg text-subprimary">I'm a passionate software developer with a knack for creating innovative solutions.</p>
             </div>
 
             <div className="flex flex-col items-center gap-6">

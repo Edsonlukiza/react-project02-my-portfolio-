@@ -6,6 +6,8 @@
     --color-sky-500: #3b82f6;
     --color-slate-900: #0f172a;
     --color-blue-500: #3b82f6;
+    --color-primary: #7A003F;
+    --color-subprimary: #EDEAE0;
 }
 
 @keyframes spin-slow {
@@ -28,10 +30,42 @@
     }
 }
 
+@keyframes float-up {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .animate-spin-slow {
     animation: spin-slow 11s linear infinite;
 }
 
 .animate-spin-reverse {
     animation: spin-reverse 13s linear infinite;
+}
+
+.animate-float-up {
+    animation: float-up 0.65s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.65s ease-out forwards;
 }

@@ -5,7 +5,8 @@ function Navbar() {
     const [theme, setTheme] = useState(
         localStorage.getItem("theme") || "light"
     );
-    const navbarLinks = "relative font-medium after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full";
+    const navbarLinks =
+        "relative text-inherit font-medium transition-all duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-blue-500 after:transition-all after:duration-300 hover:after:w-full";
     const mobileNavLink =
         "w-full text-center px-4 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-blue-500";
     useEffect(() => {
@@ -17,7 +18,7 @@ function Navbar() {
 
         <div>
             {/* navbar */}
-            <nav className="w-full px-4 py-4 sm:px-8 sm:py-1">
+            <nav className="group bg-primary dark:bg-slate-900 text-white w-full px-4 py-4 sm:px-8 sm:py-3 transition-all duration-300 hover:bg-white hover:text-black dark:hover:bg-slate-800 dark:hover:text-white">
                 <div className="  flex items-center justify-between ">
                     <div className="font-bold ">logo</div>
                     {/* desktop */}
@@ -54,7 +55,7 @@ function Navbar() {
                 {/* mobile */}
                 {open && (
 
-                    <div className="flex flex-col items-center gap-2 text-black dark:bg-background dark:text-white sm:hidden font-bold">
+                    <div className="flex flex-col items-center gap-2 text-black dark:bg-background dark:text-white sm:hidden font-bold ">
                         <a href="#" className={mobileNavLink}>
                             Tech stack
                         </a>

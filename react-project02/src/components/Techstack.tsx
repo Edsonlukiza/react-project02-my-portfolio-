@@ -3,42 +3,44 @@
 
 function Techstack() {
     return (
-        <div>
+        <div className="bg-white dark:bg-background transition-colors duration-300">
             <div className="text-slate-900 dark:text-white text-center px-6 py-6 font-semibold">
-                <h2>Tech Stack</h2>
-                <p>Here are some of the technologies I work with:</p>
+                <h2 className="text-3xl animate-float-up">Tech Stack</h2>
+                <p className="mt-2 animate-float-up" style={{ animationDelay: "0.1s" }}>
+                    Here are some of the technologies I work with:
+                </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-6 py-12 justify-items-center  ">
+            <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 px-4 sm:px-6 py-4 justify-items-center">
 
-                <div className="w-50 h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white">
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0s" }}>
                     <p>Php</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
                         <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
-                        <text x="60" y="38" text-anchor="middle" font-size="24" fill="white" font-family="Arial">
+                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
                             PHP
                         </text>
                     </svg>
                 </div>
 
-                <div className="w-50 h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white  ">
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
                     <p>HTML/CSS</p>
                     <svg width="50" height="50" viewBox="0 0 24 24" fill="#E34F26" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.5 0h21l-1.9 21.6L12 24l-8.6-2.4L1.5 0zm17.1 4.5H5.4l.3 3.4h9.6l-.3 3.3H6l.3 3.4h8.4l-.3 3.8-2.4.6-2.4-.6-.2-2H6.1l.4 4.6 5.5 1.5 5.5-1.5 1.1-12.5z" />
                     </svg>
                 </div>
 
-                <div className="w-50 h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white ">
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
                     <p>React</p>
                     <svg width="50" height="50" viewBox="-11.5 -10.23174 23 20.46348" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="0" cy="0" r="2.05" fill="#61DAFB" />
-                        <g stroke="#61DAFB" stroke-width="1" fill="none">
+                        <g stroke="#61DAFB" strokeWidth="1" fill="none">
                             <ellipse rx="11" ry="4.2" />
                             <ellipse rx="11" ry="4.2" transform="rotate(60)" />
                             <ellipse rx="11" ry="4.2" transform="rotate(120)" />
                         </g>
                     </svg>
                 </div>
-                <div className="w-50 h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white">
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
                     <p>Node.js</p>
                     <svg xmlns="http://www.w3.org/2000/svg"
                         width="60"
@@ -66,6 +68,42 @@ function Techstack() {
            0 10.6-8.3 16.4-19.5 16.4
            -10.9 0-17.9-5.2-21.3-12"
                             fill="#000" />
+                    </svg>
+                </div>
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
+                    <p>Php</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
+                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
+                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
+                            PHP
+                        </text>
+                    </svg>
+                </div>
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
+                    <p>Php</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
+                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
+                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
+                            PHP
+                        </text>
+                    </svg>
+                </div>
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+                    <p>Php</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
+                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
+                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
+                            PHP
+                        </text>
+                    </svg>
+                </div>
+                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
+                    <p>Php</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
+                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
+                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
+                            PHP
+                        </text>
                     </svg>
                 </div>
             </div>
