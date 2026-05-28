@@ -39,9 +39,12 @@ function Hero() {
                     </div>
 
                 </div>
-                <button className="mt-20 bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-full transition">
+                <a
+                    href="mailto:edsonlukiza@gmail.com?subject=Portfolio Inquiry&body=Hello Edson,"
+                    className="mt-20 inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-full transition duration-300"
+                >
                     Lets Connect
-                </button>
+                </a>
 
             </div>
         </div>
