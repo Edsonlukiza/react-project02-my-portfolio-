@@ -1,6 +1,9 @@
-import project1 from '../assets/images/developer1.jpeg'
-import project2 from '../assets/images/developer2.jpeg'
-import project3 from '../assets/images/developer3.jpeg'
+import project1 from '../assets/images/tucasa.png'
+import project2 from '../assets/images/blog.png'
+import project3 from '../assets/images/evangelism.jpg'
+import project4 from '../assets/images/oddity.png'
+import project5 from '../assets/images/hotel.jpg'
+import project6 from '../assets/images/simukiganjan.png'
 
 interface Project {
     id: number
@@ -16,33 +19,73 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
-        title: 'Portfolio Showcase',
-        description: 'A responsive portfolio website built with React and Tailwind CSS, featuring animated sections and a clean developer-focused UI.',
-        tech: ['React', 'Tailwind', 'Vite'],
-        github: 'https://github.com/username/portfolio-showcase',
-        live: 'https://your-portfolio-demo.com',
+        title: 'TSMS',
+        description:
+            'A religious campus management system developed to manage student information, events, leadership activities, announcements, and communication within the campus ministry.',
+        tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/username/tsms',
+        live: 'https://collin-ministry.great-site.net/?i=1',
         image: project1,
-        category: 'Web App'
+        category: 'Management System'
     },
+
     {
         id: 2,
-        title: 'Task Manager',
-        description: 'A modern task management application with drag-and-drop lists, project filtering, and persistence using local storage.',
-        tech: ['React', 'TypeScript', 'CSS'],
-        github: 'https://github.com/username/task-manager',
-        live: 'https://task-manager-demo.com',
+        title: 'SportsBlog',
+        description:
+            'A dynamic sports blogging platform where users can read sports news, match updates, player statistics, and interact with posts through comments.',
+        tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/username/sportsblog',
+        live: 'https://sportsblog-demo.com',
         image: project2,
-        category: 'Productivity'
+        category: 'Blog Website'
     },
+
     {
         id: 3,
-        title: 'Landing Page',
-        description: 'A clean marketing landing page with a split layout, feature cards, and conversion-focused calls to action.',
-        tech: ['HTML', 'Tailwind', 'JavaScript'],
-        github: 'https://github.com/username/landing-page',
-        live: 'https://landing-page-demo.com',
+        title: 'Evangelism Website',
+        description:
+            'A responsive church evangelism website created to share sermons, events, ministry information, and inspirational content with visitors online.',
+        tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/username/evangelism-website',
+        live: 'https://evangelism-demo.com',
         image: project3,
-        category: 'Marketing'
+        category: 'Religious Website'
+    },
+
+    {
+        id: 4,
+        title: 'Oddit',
+        description:
+            'A modern web application built using PHP for managing digital operations and improving workflow efficiency with a clean and user-friendly interface.',
+        tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/username/oddit',
+        live: 'https://green-heart.infinityfreeapp.com/',
+        image: project4,
+        category: 'Web Application'
+    },
+
+    {
+        id: 5,
+        title: 'Hotel Management System',
+        description:
+            'A hotel booking and management platform that handles room reservations, customer records, check-ins, check-outs, and hotel administration tasks.',
+        tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+        github: 'https://github.com/username/hotel-management',
+        live: 'https://hotel-demo.com',
+        image: project5,
+        category: 'Management System'
+    },
+    {
+        id: 6,
+        title: 'Simu Kiganjani',
+        description:
+            'A collaborative modern web application developed to provide users with a seamless digital platform experience, featuring responsive design, fast performance, and interactive user interfaces.',
+        tech: ['React', 'Tailwind CSS', 'TypeScript'],
+        github: 'https://github.com/username/simu-kiganjani',
+        live: 'https://kiganjani-drive-hub-o31d.vercel.app/',
+        image: project6,
+        category: 'Collaborative Project'
     }
 ]
 
