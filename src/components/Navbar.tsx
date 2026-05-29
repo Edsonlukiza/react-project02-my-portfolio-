@@ -30,10 +30,10 @@ function Navbar({ activePage, onNavigate }: NavbarProps) {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-8 sm:py-4">
         <button
           type="button"
-          className="text-lg font-bold tracking-[0.2em] uppercase text-white"
+          className="text-lg font-bold tracking-[0.2em] text-white"
           onClick={() => navigateTo('home')}
         >
-          Logo
+          MyPort<sub>folio</sub>
         </button>
 
         <div className="hidden items-center gap-4 sm:flex">
