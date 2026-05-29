@@ -1,28 +1,28 @@
 const testimonials = [
     {
         image: "/avatar1.svg",
-        name: "John Doe",
+        name: "Yoshi Joan",
         message1: "Edson is a great developer and a pleasure to work with.",
         message2: "His attention to detail and problem-solving skills are impressive."
     },
 
     {
         image: "/avatar2.svg",
-        name: "Sarah Smith",
+        name: "Sarah Su",
         message1: "Very professional and creative developer.",
         message2: "Always delivers clean and responsive designs."
     },
 
     {
         image: "/avatar3.svg",
-        name: "Michael Brown",
+        name: "Masha Malema",
         message1: "Excellent communication and teamwork skills.",
         message2: "Highly recommended for web development projects."
     },
 
     {
         image: "/avatar4.svg",
-        name: "Jane Wilson",
+        name: "Jana Wilson",
         message1: "Fast learner and very dedicated.",
         message2: "Builds modern and scalable applications."
     }
@@ -41,21 +41,21 @@ function About() {
                 </p>
 
                 <ul className="space-y-2">
-                    <li>Full Name: Edson M. M. M. M.</li>
+                    <li>Full Name: Edson Mchunguzi</li>
                     <li>Location: Dar es Salaam, Tanzania</li>
                     <li>
                         Education: BSc in Computer Science from the
                         St. Joseph College of Engineering and Technology
                     </li>
                     <li>
-                        Experience: 3 years as a software developer
+                        Experience: 2 years as a software developer
                         specializing in web applications
                     </li>
                     <li>
                         Skills: JavaScript, React, Node.js, Python,
                         PHP, HTML/CSS
                     </li>
-                    <li>Hobbies: Coding and reading</li>
+                    <li>Hobbies: I love to read the Bible</li>
                 </ul>
             </div>
 
