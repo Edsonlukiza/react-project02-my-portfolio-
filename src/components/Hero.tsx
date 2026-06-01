@@ -17,16 +17,12 @@ function Hero() {
 
                     <div className="relative flex items-center justify-center">
 
-                        {/* OUTER ROTATING RINGS */}
-                        <div className="absolute w-96 h-96 rounded-full border border-sky-500/20 animate-spin-slow"></div>
+                        {/* Pulsing Glow */}
+                        <div className="absolute w-80 h-80 rounded-full bg-sky-500/40 blur-3xl animate-pulse-glow"></div>
 
-                        <div className="absolute w-[420px] h-[420px] rounded-full border border-sky-400/10 animate-spin-reverse"></div>
-
-                        {/* glowing arcs (fake segments) */}
-                        <div className="absolute w-[460px] h-[460px] rounded-full border-t-2 border-sky-500 animate-spin-slow"></div>
-
-                        {/* MAIN GLOW CIRCLE */}
-                        <div className="relative w-72 h-72 rounded-full bg-slate-900 flex items-center justify-center shadow-[0_0_60px_rgba(56,189,248,0.4)]">
+                        <div className="absolute w-72 h-72 rounded-full bg-sky-400/30 blur-2xl animate-pulse-glow-delayed"></div>
+                        {/* Profile Image */}
+                        <div className="relative w-72 h-72 rounded-full bg-slate-900 flex items-center justify-center overflow-hidden shadow-[0_0_60px_rgba(56,189,248,0.5)]">
 
                             <img
                                 src={img}
