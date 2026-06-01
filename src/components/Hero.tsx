@@ -31,7 +31,7 @@ function Hero() {
                     ></div>
 
                     {/* Profile Image */}
-                    <div className="relative w-72 h-72 rounded-full overflow-hidden border-4 border-sky-400 shadow-[0_0_40px_rgba(56,189,248,0.6)]">
+                    <div className="relative w-72 h-72 rounded-full overflow-hidden border-4 border-sky-400 shadow-[0_0_30px_rgba(56,189,248,0.6)] animate-pulse-glow">
                         <img
                             src={img}
                             alt="profile"
