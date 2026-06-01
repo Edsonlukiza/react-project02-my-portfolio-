@@ -13,25 +13,30 @@ function Hero() {
             </div>
 
             <div className="flex flex-col items-center gap-6">
-                <div className="relative flex items-center justify-center ">
+                <div className="relative flex items-center justify-center">
 
-                    <div className="relative flex items-center justify-center">
+                    {/* Wave 1 */}
+                    <div className="absolute w-72 h-72 rounded-full border-2 border-sky-400 animate-wave"></div>
 
-                        {/* Pulsing Glow */}
-                        <div className="absolute w-80 h-80 rounded-full bg-sky-500/40 blur-3xl animate-pulse-glow"></div>
+                    {/* Wave 2 */}
+                    <div
+                        className="absolute w-72 h-72 rounded-full border-2 border-sky-400 animate-wave"
+                        style={{ animationDelay: "1s" }}
+                    ></div>
 
-                        <div className="absolute w-72 h-72 rounded-full bg-sky-400/30 blur-2xl animate-pulse-glow-delayed"></div>
-                        {/* Profile Image */}
-                        <div className="relative w-72 h-72 rounded-full bg-slate-900 flex items-center justify-center overflow-hidden shadow-[0_0_60px_rgba(56,189,248,0.5)]">
+                    {/* Wave 3 */}
+                    <div
+                        className="absolute w-72 h-72 rounded-full border-2 border-sky-400 animate-wave"
+                        style={{ animationDelay: "2s" }}
+                    ></div>
 
-                            <img
-                                src={img}
-                                alt="profile"
-                                className="w-full h-full object-cover rounded-full"
-                            />
-
-                        </div>
-
+                    {/* Profile Image */}
+                    <div className="relative w-72 h-72 rounded-full overflow-hidden border-4 border-sky-400 shadow-[0_0_40px_rgba(56,189,248,0.6)]">
+                        <img
+                            src={img}
+                            alt="profile"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
 
                 </div>

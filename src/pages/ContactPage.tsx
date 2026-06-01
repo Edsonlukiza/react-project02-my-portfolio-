@@ -40,11 +40,11 @@ function ContactPage() {
             <div className="space-y-4">
               <div className="rounded-3xl bg-white px-5 py-4 shadow-sm dark:bg-slate-950">
                 <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
-                <p className="mt-1 font-medium">edson@example.com</p>
+                <p className="mt-1 font-medium">edsonlukiza@gmail.com</p>
               </div>
               <div className="rounded-3xl bg-white px-5 py-4 shadow-sm dark:bg-slate-950">
                 <p className="text-sm text-slate-500 dark:text-slate-400">Phone</p>
-                <p className="mt-1 font-medium">+255 123 456 789</p>
+                <p className="mt-1 font-medium">+255 699 508 695</p>
               </div>
               <div className="rounded-3xl bg-white px-5 py-4 shadow-sm dark:bg-slate-950">
                 <p className="text-sm text-slate-500 dark:text-slate-400">Location</p>
