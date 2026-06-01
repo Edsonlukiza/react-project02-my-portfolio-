@@ -81,8 +81,8 @@ function Navbar({ activePage, onNavigate }: NavbarProps) {
           <button type="button" className={mobileNavLink} onClick={() => navigateTo('contact')}>
             Contact me
           </button>
-          <button className="mt-2 w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-left text-base text-white transition hover:bg-white/20" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
-            {theme === 'light' ? 'Switch to dark' : 'Switch to light'}
+          <button className="mt-2 w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-center text-base text-white transition hover:bg-white/20" onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
+            {theme === 'light' ? 'Switch to dark 🌙' : 'Switch to light ☀️'}
           </button>
         </div>
       ) : null}
