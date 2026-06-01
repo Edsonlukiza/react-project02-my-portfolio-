@@ -2,7 +2,7 @@
 import img from '../assets/images/developer2.jpeg'
 function Hero() {
     return (
-        <div className="bg-primary text-white grid grid-cols-2 items-center gap-10 px-6 py-25">
+        <div className="bg-primary text-white grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-6 py-20 overflow-x-hidden">
 
 
 

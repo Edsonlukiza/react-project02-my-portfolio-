@@ -10,9 +10,9 @@ function Techstack() {
                     Here are some of the technologies I work with:
                 </p>
             </div>
-            <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 px-4 sm:px-6 py-4 justify-items-center">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 py-4 justify-items-center">
 
-                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0s" }}>
+                <div className="w-full max-w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0s" }}>
                     <p>Php</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
                         <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
@@ -70,42 +70,8 @@ function Techstack() {
                             fill="#000" />
                     </svg>
                 </div>
-                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
-                    <p>Php</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
-                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
-                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
-                            PHP
-                        </text>
-                    </svg>
-                </div>
-                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.5s" }}>
-                    <p>Php</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
-                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
-                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
-                            PHP
-                        </text>
-                    </svg>
-                </div>
-                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-                    <p>Php</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
-                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
-                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
-                            PHP
-                        </text>
-                    </svg>
-                </div>
-                <div className="w-[220px] h-40 bg-gray-900 rounded-lg shadow-md flex flex-col items-center justify-center gap-4 text-white hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer animate-fade-in-up" style={{ animationDelay: "0.7s" }}>
-                    <p>Php</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100" viewBox="0 0 120 60">
-                        <ellipse cx="60" cy="30" rx="55" ry="25" fill="#777BB4" />
-                        <text x="60" y="38" textAnchor="middle" fontSize="24" fill="white" fontFamily="Arial">
-                            PHP
-                        </text>
-                    </svg>
-                </div>
+
+
             </div>
         </div>
     );

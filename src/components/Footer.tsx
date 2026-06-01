@@ -64,7 +64,7 @@ const Footer = () => {
                     </a>
 
                     {/* LinkedIn */}
-                    <a href="#"
+                    <a href="https://linkedin.com/in/edsonlukiza"
                         className="bg-gray-900 p-3 rounded-full hover:scale-110 hover:bg-blue-500 transition duration-300 shadow-lg">
 
                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ const Footer = () => {
                     </a>
 
                     {/* WhatsApp */}
-                    <a href="#"
+                    <a href="https://wa.me/255699508695?text=Hello%20Edson,%20I%20saw%20your%20portfolio."
                         className="bg-gray-900 p-3 rounded-full hover:scale-110 hover:bg-green-500 transition duration-300 shadow-lg">
 
                         <svg xmlns="http://www.w3.org/2000/svg"
