@@ -84,7 +84,7 @@ const Footer = () => {
                     </a>
 
                     {/* GitHub */}
-                    <a href="#"
+                    <a href="https://github.com/Edsonlukiza"
                         className="bg-gray-900 p-3 rounded-full hover:scale-110 hover:bg-gray-700 transition duration-300 shadow-lg">
 
                         <svg xmlns="http://www.w3.org/2000/svg"

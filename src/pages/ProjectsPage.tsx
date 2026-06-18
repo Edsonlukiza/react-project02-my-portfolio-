@@ -1,9 +1,10 @@
 import project1 from '../assets/images/tucasa.png'
-import project2 from '../assets/images/blog.png'
-import project3 from '../assets/images/evangelism.jpg'
-import project4 from '../assets/images/oddity.png'
-import project5 from '../assets/images/hotel.jpg'
-import project6 from '../assets/images/simukiganjan.png'
+import project2 from '../assets/images/tucasa.png'
+import project3 from '../assets/images/blog.png'
+import project4 from '../assets/images/evangelism.jpg'
+import project5 from '../assets/images/oddity.png'
+import project6 from '../assets/images/hotel.jpg'
+import project7 from '../assets/images/simukiganjan.png'
 
 interface Project {
     id: number
@@ -19,65 +20,77 @@ interface Project {
 const projects: Project[] = [
     {
         id: 1,
+        title: 'SMART VENDING MACHINE FINAL YEAR PROJECT(2026)',
+        description:
+            'A smart vending machine management system designed to streamline operations and enhance user experience.',
+        tech: ['PYTHON', 'C++', 'FIREBASE'],
+        github: 'https://github.com/Edsonlukiza/Smartvending-Machine-final-year-Project',
+        live: '#',
+        image: project1,
+        category: 'Vendor System'
+    },
+
+    {
+        id: 2,
         title: 'TSMS',
         description:
             'A religious campus management system developed to manage student information, events, leadership activities, announcements, and communication within the campus ministry.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/username/tsms',
+        github: 'https://github.com/Edsonlukiza/TSMS',
         live: 'https://collin-ministry.great-site.net/?i=1',
         image: project1,
         category: 'Management System'
     },
 
     {
-        id: 2,
+        id: 3,
         title: 'SportsBlog',
         description:
             'A dynamic sports blogging platform where users can read sports news, match updates, player statistics, and interact with posts through comments.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/username/sportsblog',
+        github: 'https://github.com/Edsonlukiza/SportsBlog',
         live: 'https://sportsblog-demo.com',
         image: project2,
         category: 'Blog Website'
     },
 
     {
-        id: 3,
+        id: 4,
         title: 'Evangelism Website',
         description:
             'A responsive church evangelism website created to share sermons, events, ministry information, and inspirational content with visitors online.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/username/evangelism-website',
+        github: 'https://github.com/Edsonlukiza/Evangelism-Website',
         live: 'https://evangelism-demo.com',
         image: project3,
         category: 'Religious Website'
     },
 
     {
-        id: 4,
+        id: 5,
         title: 'Oddit',
         description:
             'A modern web application built using PHP for managing digital operations and improving workflow efficiency with a clean and user-friendly interface.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/username/oddit',
+        github: 'https://github.com/Edsonlukiza/Oddit',
         live: 'https://green-heart.infinityfreeapp.com/',
         image: project4,
         category: 'Web Application'
     },
 
     {
-        id: 5,
+        id: 6,
         title: 'Hotel Management System',
         description:
             'A hotel booking and management platform that handles room reservations, customer records, check-ins, check-outs, and hotel administration tasks.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/username/hotel-management',
+        github: 'https://github.com/Edsonlukiza/Hotel-Management',
         live: 'https://hotel-demo.com',
         image: project5,
         category: 'Management System'
     },
     {
-        id: 6,
+        id: 7,
         title: 'Simu Kiganjani',
         description:
             'A collaborative modern web application developed to provide users with a seamless digital platform experience, featuring responsive design, fast performance, and interactive user interfaces.',
