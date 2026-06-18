@@ -38,7 +38,7 @@ const projects: Project[] = [
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/Edsonlukiza/TSMS',
         live: 'https://collin-ministry.great-site.net/?i=1',
-        image: project1,
+        image: project2,
         category: 'Management System'
     },
 
@@ -50,7 +50,7 @@ const projects: Project[] = [
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/Edsonlukiza/SportsBlog',
         live: 'https://sportsblog-demo.com',
-        image: project2,
+        image: project3,
         category: 'Blog Website'
     },
 
@@ -62,7 +62,7 @@ const projects: Project[] = [
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/Edsonlukiza/Evangelism-Website',
         live: 'https://evangelism-demo.com',
-        image: project3,
+        image: project4,
         category: 'Religious Website'
     },
 
@@ -74,7 +74,7 @@ const projects: Project[] = [
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/Edsonlukiza/Oddit',
         live: 'https://green-heart.infinityfreeapp.com/',
-        image: project4,
+        image: project5,
         category: 'Web Application'
     },
 
@@ -86,7 +86,7 @@ const projects: Project[] = [
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
         github: 'https://github.com/Edsonlukiza/Hotel-Management',
         live: 'https://hotel-demo.com',
-        image: project5,
+        image: project6,
         category: 'Management System'
     },
     {
@@ -97,7 +97,7 @@ const projects: Project[] = [
         tech: ['React', 'Tailwind CSS', 'TypeScript'],
         github: 'https://github.com/username/simu-kiganjani',
         live: 'https://kiganjani-drive-hub-o31d.vercel.app/',
-        image: project6,
+        image: project7,
         category: 'Collaborative Project'
     }
 ]

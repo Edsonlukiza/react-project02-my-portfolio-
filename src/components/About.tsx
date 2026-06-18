@@ -1,14 +1,14 @@
 const testimonials = [
     {
         image: "/avatar1.svg",
-        name: "Yoshi Joan",
+        name: "Gilbert Mvungi",
         message1: "Edson is a great developer and a pleasure to work with.",
         message2: "His attention to detail and problem-solving skills are impressive."
     },
 
     {
         image: "/avatar2.svg",
-        name: "Sarah Su",
+        name: "Karen M",
         message1: "Very professional and creative developer.",
         message2: "Always delivers clean and responsive designs."
     },
@@ -22,7 +22,7 @@ const testimonials = [
 
     {
         image: "/avatar4.svg",
-        name: "Jana Wilson",
+        name: "J Wilson",
         message1: "Fast learner and very dedicated.",
         message2: "Builds modern and scalable applications."
     }

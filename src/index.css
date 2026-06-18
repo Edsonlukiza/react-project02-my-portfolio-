@@ -31,6 +31,24 @@
     animation: glowPulse 2.8s ease-in-out infinite;
 }
 
+.tech-marquee {
+    animation: techMarquee 28s linear infinite;
+}
+
+.tech-marquee:hover {
+    animation-play-state: paused;
+}
+
+@keyframes techMarquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 .typing-cursor {
     display: inline-block;
     width: 0.08em;
@@ -62,6 +80,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+
+    .tech-marquee,
     .typing-cursor {
         animation: none;
     }

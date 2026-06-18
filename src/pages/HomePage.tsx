@@ -10,7 +10,7 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-white dark:bg-background transition-colors duration-300">
       <Hero />
-      <Techstack />
+      <Techstack variant="marquee" />
       <About />
 
       <section className="bg-slate-50 dark:bg-slate-900 py-16 transition-colors duration-300">
