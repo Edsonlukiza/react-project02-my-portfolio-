@@ -1,4 +1,4 @@
-import project1 from '../assets/images/tucasa.png'
+import smartVendingScreen from '../assets/images/smart-vending-screen.svg'
 import project2 from '../assets/images/tucasa.png'
 import project3 from '../assets/images/blog.png'
 import project4 from '../assets/images/evangelism.jpg'
@@ -26,7 +26,7 @@ const projects: Project[] = [
         tech: ['PYTHON', 'C++', 'FIREBASE'],
         github: 'https://github.com/Edsonlukiza/Smartvending-Machine-final-year-Project',
         live: '#',
-        image: project1,
+        image: smartVendingScreen,
         category: 'Vendor System'
     },
 
@@ -72,7 +72,7 @@ const projects: Project[] = [
         description:
             'A modern web application built using PHP for managing digital operations and improving workflow efficiency with a clean and user-friendly interface.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/Edsonlukiza/Oddit',
+        github: 'https://github.com/Edsonlukiza/Oddit_project01',
         live: 'https://green-heart.infinityfreeapp.com/',
         image: project5,
         category: 'Web Application'
@@ -84,7 +84,7 @@ const projects: Project[] = [
         description:
             'A hotel booking and management platform that handles room reservations, customer records, check-ins, check-outs, and hotel administration tasks.',
         tech: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-        github: 'https://github.com/Edsonlukiza/Hotel-Management',
+        github: 'https://github.com/Edsonlukiza/hotel-management-app',
         live: 'https://hotel-demo.com',
         image: project6,
         category: 'Management System'
