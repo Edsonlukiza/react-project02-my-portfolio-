@@ -30,3 +30,165 @@
 .animate-glow {
     animation: glowPulse 2.8s ease-in-out infinite;
 }
+
+.typing-cursor {
+    display: inline-block;
+    width: 0.08em;
+    height: 0.9em;
+    margin-left: 0.16em;
+    transform: translateY(0.08em);
+    border-radius: 999px;
+    background: #EDEAE0;
+    animation: cursorBlink 1s ease-in-out infinite;
+}
+
+.typing-cursor-small {
+    height: 1em;
+    background: rgba(237, 234, 224, 0.78);
+}
+
+@keyframes cursorBlink {
+
+    0%,
+    45% {
+        opacity: 1;
+    }
+
+    46%,
+    100% {
+        opacity: 0.18;
+    }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .typing-cursor {
+        animation: none;
+    }
+}
+
+
+.flame-cursor {
+    display: inline-block;
+    margin-left: 8px;
+    animation:
+        flameMove 0.5s infinite alternate,
+        flameGlow 1s infinite;
+}
+
+
+@keyframes flameMove {
+
+    from {
+        transform: translateY(0) scale(1);
+    }
+
+    to {
+        transform: translateY(-8px) scale(1.2);
+    }
+
+}
+
+
+@keyframes flameGlow {
+
+    0% {
+        filter: drop-shadow(0 0 5px orange);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px red);
+    }
+
+    100% {
+        filter: drop-shadow(0 0 5px yellow);
+    }
+
+}
+
+.fire-text {
+    animation: fireGlow 1.5s infinite alternate;
+}
+
+
+@keyframes fireGlow {
+
+    0% {
+        text-shadow:
+            0 0 5px #ff4500,
+            0 0 10px #ff8c00;
+    }
+
+
+    50% {
+        text-shadow:
+            0 0 15px #ff4500,
+            0 0 30px #ff0000,
+            0 0 40px #ff8c00;
+    }
+
+
+    100% {
+        text-shadow:
+            0 0 8px #ffd700,
+            0 0 20px #ff4500;
+    }
+
+}
+
+
+
+.typing-flame {
+
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-left: 8px;
+
+    background:
+        linear-gradient(to top,
+            #ff0000,
+            #ff8c00,
+            #ffff00);
+
+
+    border-radius: 50% 50% 40% 40%;
+
+    animation:
+        flameMove .35s infinite alternate,
+        flamePulse .7s infinite;
+
+}
+
+
+
+@keyframes flameMove {
+
+    from {
+        transform:
+            translateY(3px) rotate(-8deg);
+    }
+
+
+    to {
+        transform:
+            translateY(-5px) rotate(8deg);
+    }
+
+}
+
+
+
+@keyframes flamePulse {
+
+    from {
+        filter:
+            drop-shadow(0 0 5px orange);
+    }
+
+    to {
+        filter:
+            drop-shadow(0 0 20px red);
+    }
+
+}

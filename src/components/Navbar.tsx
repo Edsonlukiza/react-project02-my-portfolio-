@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-type PageKey = 'home' | 'techstack' | 'about' | 'projects' | 'contact'
+type PageKey = 'home' | 'techstack' | 'about' | 'projects' | 'gallery' | 'contact'
 
 interface NavbarProps {
   activePage: PageKey
@@ -49,6 +49,10 @@ function Navbar({ activePage, onNavigate }: NavbarProps) {
           <button type="button" className={navbarLinks(activePage === 'projects')} onClick={() => navigateTo('projects')}>
             Featured Projects
           </button>
+          <button type="button" className={navbarLinks(activePage === 'gallery')} onClick={() => navigateTo('gallery')}>
+            Gallery
+          </button>
+          
           <button type="button" className={navbarLinks(activePage === 'contact')} onClick={() => navigateTo('contact')}>
             Contact me
           </button>
@@ -78,6 +82,10 @@ function Navbar({ activePage, onNavigate }: NavbarProps) {
           <button type="button" className={mobileNavLink} onClick={() => navigateTo('projects')}>
             Featured Projects
           </button>
+          <button type="button" className={mobileNavLink} onClick={() => navigateTo('gallery')}>
+            Gallery
+          </button>
+          
           <button type="button" className={mobileNavLink} onClick={() => navigateTo('contact')}>
             Contact me
           </button>

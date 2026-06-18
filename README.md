@@ -70,4 +70,45 @@ export default defineConfig([
     },
   },
 ])
+
+## Dynamic image gallery setup
+
+A new gallery page has been added to this app. It loads images at runtime from Firebase Storage and Firestore, so you can upload new gallery images without changing the app source.
+
+1. Copy `.env.example` to `.env`.
+2. Create a Firebase project with Firestore, Storage, and Email/Password auth enabled.
+3. Add the Firebase configuration values to `.env`.
+4. Create a Firebase Auth user with the email set in `VITE_FIREBASE_ADMIN_EMAIL`.
+5. Run `npm install` and then `npm run dev`.
+6. Open the Gallery page, sign in as admin, and upload new images.
+
+### Important Firebase rules
+
+Use these example rules to restrict gallery access to authenticated users only.
+
+Firestore rule:
+
+```js
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /gallery/{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
+
+Storage rule:
+
+```js
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /gallery/{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
+```
 ```
